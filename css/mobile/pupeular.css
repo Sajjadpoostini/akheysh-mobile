@@ -1,0 +1,41 @@
+div.pupeular {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  gap: 35px;
+  align-items: center;
+}
+div.pupeular >h1{
+  color: #441752;
+  font-size: 30px;
+}
+
+div.pupeular > div.brands {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+div.pupeular > div.brands > a {
+  width: 33%;
+  cursor: pointer;
+  transition: 1000ms;
+}
+
+div.pupeular > div.brands > a:hover {
+  transform: scale(120%);
+}
+
+div.pupeular > div.brands > a > div.brand > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+div.pupeular > div.brand > img {
+  width: 100%;
+  object-fit: cover;
+}

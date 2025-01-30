@@ -1,0 +1,34 @@
+div.dastebandi {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+div.dastebandi > div.koli {
+  width: 27%;
+  height: 25vh;
+  background-color: #f0f0f1;
+}
+div.dastebandi > div.koli > a.img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 10px;
+  text-decoration: none;
+}
+div.dastebandi > div.koli > a.img > h2 {
+  margin-top: 10px;
+}
+
+
+div.dastebandi > div.koli > a.img > img {
+  width: 60%;
+  object-fit: contain;
+  border-radius: 50%;
+}

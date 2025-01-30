@@ -1,0 +1,64 @@
+div.video {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+div.video > div.basic {
+  width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 13px #441752;
+  border-radius: 5px;
+  padding-bottom: 40px;
+}
+div.video > div.basic > div.vido {
+  width: 100%;
+  height: 200px;
+}
+div.video > div.basic > div.vido:hover > video {
+  opacity: 0.8;
+}
+
+div.video > div.basic > div.vido > video {
+  width: 100%;
+  height: 100%;
+}
+
+div.video > div.basic > div.matn {
+  width: 100%;
+  margin-top: 5px;
+}
+div.video > div.basic > div.matn > h2 {
+  font-size: 20px;
+  color: black;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+div.video > div.basic > div.matn > p {
+  color: black;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+div.video > div.basic > div.mahsool {
+  margin-top: 50px;
+}
+div.video > div.basic > div.mahsool > a {
+  border: 1px solid #441752;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #441752;
+  transition: 1000ms;
+}
+div.video > div.basic > div.mahsool > a:hover {
+  background-color: #441752;
+  color: rgb(255, 255, 255);
+}

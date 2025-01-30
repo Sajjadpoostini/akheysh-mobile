@@ -1,0 +1,86 @@
+div.bacebanner1 {
+  width: 100%;
+  height: 50vh;
+}
+div.bacebanner1 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+div.entekhab1 {
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  box-sizing: border-box;
+  color: #441752;
+}
+div.entekhab1 > div.beraandcoli1 {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+div.entekhab1 > div.beraandcoli1 > div.brand2 {
+  width: 34%;
+  height: 20vh;
+  border: 0.5px rgb(211, 208, 208) solid;
+  transition: 1000ms;
+}
+div.entekhab1 > div.beraandcoli1 > div.brand2 > h2 {
+  color: black;
+  font-size: 19px;
+  margin-top: 5px;
+}
+
+div.entekhab1 > div.beraandcoli1 > div.padding {
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+div.entekhab1 > div.beraandcoli1 > div.brand2:hover {
+  transform: scale(110%);
+}
+
+div.entekhab1 > div.beraandcoli1 > div.brand2 > a.img {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+div.entekhab1 > div.beraandcoli1 > div.brand2 > a.img > h2.ICE {
+  color: red;
+  font-size: 32px;
+  font-style: italic;
+}
+
+div.entekhab1 > div.beraandcoli1 > div.brand2 > a.img > h2.turbo {
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+  font-style: italic;
+}
+div.entekhab1 > div.beraandcoli1 > div.brand2 > a.img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+div.entekhab1 > div.beraandcoli1 > div.brand2 > a.img > img.img2 {
+  object-fit: cover;
+}
+div.entekhab1 > div.beraandcoli1 > div.brand2 > a.koochik {
+  width: 75%;
+  text-align: center;
+  margin-right: 34px;
+}

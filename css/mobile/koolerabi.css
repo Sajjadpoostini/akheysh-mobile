@@ -1,0 +1,57 @@
+div.bacebanner > img.gh {
+  object-fit: contain;
+}
+div.brendkoolerabi {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 14px;
+  box-sizing: border-box;
+}
+h1 {
+  padding-top: 40px;
+  box-sizing: border-box;
+  color: #441752;
+  text-align: center;
+}
+div.brendkoolerabi > div.logobreand {
+  width: 40%;
+  height: 20vh;
+  border: 0.5px rgb(211, 208, 208) solid;
+  transition: 1000ms;
+  margin-top: 40px;
+  box-sizing: border-box;
+  transition: 1000ms;
+}
+div.brendkoolerabi > div.logobreand > h2 {
+  text-align: center;
+  color: black;
+  font-size: 19px;
+  margin-top: 5px;
+}
+
+div.brendkoolerabi > div.logobreand:hover {
+  transform: scale(110%);
+}
+
+div.brendkoolerabi > div.logobreand > a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+div.brendkoolerabi > div.logobreand > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

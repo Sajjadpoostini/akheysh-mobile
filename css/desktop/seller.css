@@ -1,0 +1,40 @@
+
+div.seller{
+    height: 60vh;
+    width: 100%;
+    padding-bottom: 100px;
+   
+}
+div.seller > h2 {
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 40px;
+
+}
+.swiper-slide > a {
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide > a > div.img {
+  width: 40%;
+}
+
+.swiper-slide > a > div.img > img {
+  width: 100%;
+  object-fit: contain;
+}
+.swiper-slide > a > p {
+  display: flex;
+  width: 50%;
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 26px;
+  margin-right: 20px;
+  text-align: start;
+  color: #441752;
+}
