@@ -2,6 +2,7 @@ div.bacebanner {
   width: 100%;
   height: 40vh;
 }
+
 div.bacebanner > img {
   width: 100%;
   height: 100%;
@@ -14,6 +15,10 @@ div.entekhab {
   box-sizing: border-box;
   color: #441752;
 }
+div.entekhab > h1 {
+  font-size: 20px;
+}
+
 div.entekhab > div.beraandcoli {
   width: 100%;
   display: flex;
@@ -31,14 +36,14 @@ div.entekhab > div.beraandcoli > div.brand1 {
   transition: 1000ms;
 }
 div.entekhab > div.beraandcoli > div.brand1 > h2 {
-  font-size: 19px;
+  font-size: 11px;
   margin-top: 5px;
   color: black;
 }
 
 div.entekhab > div.beraandcoli > div.padding {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   box-sizing: border-box;
 }
 div.entekhab > div.beraandcoli > div.padding2 {
@@ -64,16 +69,22 @@ div.entekhab > div.beraandcoli > div.brand1 > a.img {
   font-weight: 100;
   font-style: italic;
 }
+div.entekhab > div.beraandcoli > div.brand1 > a.img >h2.ger{
+  font-size: 20px;
+}
+div.entekhab > div.beraandcoli > div.brand1 > a.img >h2.paeez{
+  font-size: 20px;
+}
 
 div.entekhab > div.beraandcoli > div.brand1 > a.img > h2.ICE {
   color: red;
-  font-size: 32px;
+  font-size: 20px;
   font-style: italic;
 }
 
 div.entekhab > div.beraandcoli > div.brand1 > a.img > h2.turbo {
   color: rgb(0, 0, 0);
-  font-size: 36px;
+  font-size: 20px;
   font-style: italic;
 }
 div.entekhab > div.beraandcoli > div.brand1 > h2.dddd {
@@ -91,43 +102,37 @@ div.entekhab > div.beraandcoli > div.brand1 > a.img > h2.turbo {
   margin-top: 5px;
 }
 div.entekhab > div.beraandcoli > div.brand1 > a.img > h2.arshia {
-  font-size: 46px;
+  font-size: 30px;
   font-style: italic;
-color: rgb(224, 25, 25);
-
+  color: rgb(224, 25, 25);
 }
 div.entekhab > div.beraandcoli > div.brand1 > a.img > h2.farid {
-color: rgb(224, 25, 25);
-font-size: 38px;
-
-
+  color: rgb(224, 25, 25);
+  font-size: 27px;
 }
-
 
 div.entekhab > div.beraandcoli > div.brand1 > a.img > h2.general {
   color: rgb(0, 119, 255);
-  font-size: 50px;
+  font-size: 23px;
   margin-top: 5px;
 }
 div.entekhab > div.beraandcoli > div.brand1 > a.img > h2.shargh {
   font-size: 20px;
 }
 div.entekhab > div.beraandcoli > div.brand1 > a.img > h2.ernest {
-  font-size: 36px;
+  font-size: 26px;
   font-style: italic;
   color: #0e4872;
 }
 div.entekhab > div.beraandcoli > div.brand1 > a.img > h2.drakht {
-  font-size: 36px;
+  font-size: 20px;
   color: #04243b;
 }
 div.entekhab > div.beraandcoli > div.brand1 > a.img > h2.Azar {
-  font-size: 26px;
+  font-size: 15px;
   color: #000000;
-  margin-bottom: 35px;
-  margin-left: 5px;
-  margin-right: 10px;
   font-style: italic;
+  text-align: center center;
 }
 
 div.entekhab > div.beraandcoli > div.brand1 > a.img > img.img2 {
@@ -136,5 +141,10 @@ div.entekhab > div.beraandcoli > div.brand1 > a.img > img.img2 {
 div.entekhab > div.beraandcoli > div.brand1 > a.koochik {
   width: 75%;
   text-align: center;
-  margin-right: 34px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  /* margin-right: 34px; */
 }

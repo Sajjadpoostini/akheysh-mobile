@@ -32,15 +32,22 @@ div.entekhab1 > div.beraandcoli1 > div.brand2 {
 }
 div.entekhab1 > div.beraandcoli1 > div.brand2 > h2 {
   color: black;
-  font-size: 19px;
+  font-size: 12px;
   margin-top: 5px;
 }
 
 div.entekhab1 > div.beraandcoli1 > div.padding {
-  padding-left: 30px;
-  padding-right: 30px;
+  /* padding-left: 30px;
+  /* padding-right: 30px; */
+  box-sizing: border-box; 
+}
+div.entekhab1 > div.beraandcoli1 > div.zdpading{
+  
+  padding-left: -30px;
+  padding-right: -30px;
   box-sizing: border-box;
 }
+
 
 div.entekhab1 > div.beraandcoli1 > div.brand2:hover {
   transform: scale(110%);

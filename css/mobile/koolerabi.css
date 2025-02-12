@@ -11,10 +11,9 @@ div.brendkoolerabi {
   box-sizing: border-box;
 }
 h1 {
-  padding-top: 40px;
-  box-sizing: border-box;
   color: #441752;
   text-align: center;
+  font-size: 20px;
 }
 div.brendkoolerabi > div.logobreand {
   width: 40%;
@@ -28,7 +27,7 @@ div.brendkoolerabi > div.logobreand {
 div.brendkoolerabi > div.logobreand > h2 {
   text-align: center;
   color: black;
-  font-size: 19px;
+  font-size: 15px;
   margin-top: 5px;
 }
 

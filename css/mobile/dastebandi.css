@@ -5,6 +5,7 @@ div.dastebandi {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  gap: 2px;
 }
 div.dastebandi > div.koli {
   width: 27%;
@@ -19,13 +20,13 @@ div.dastebandi > div.koli > a.img {
   justify-content: center;
   align-items: center;
   color: black;
-  font-size: 10px;
+  font-size: 8px;
   text-decoration: none;
 }
 div.dastebandi > div.koli > a.img > h2 {
   margin-top: 10px;
+  text-align: center;
 }
-
 
 div.dastebandi > div.koli > a.img > img {
   width: 60%;

@@ -21,7 +21,7 @@ div.pupeular > div.brands {
   gap: 16px;
 }
 div.pupeular > div.brands > a {
-  width: 33%;
+  width: 25%;
   cursor: pointer;
   transition: 1000ms;
 }
